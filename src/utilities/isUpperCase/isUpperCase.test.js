@@ -5,12 +5,13 @@ describe('The isUpperCase function', () => {
     it('Should return true', () => {
       const result = isUpperCase('HELLO');
       expect(result).toBe(true);
+    });
   });
-  });
+
   describe('when the string is not uppercase', () => {
     it('Should return false', () => {
       const result = isUpperCase('hello');
       expect(result).toBe(false);
     });
-  })
+  });
 });
